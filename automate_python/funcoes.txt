@@ -1,0 +1,19 @@
+Adicionar itens em uma lista:
+
+>>> spam
+['oi', 'ola', 'e ai']
+>>> spam.append('fala')
+>>> spam
+['oi', 'ola', 'e ai', 'fala']
+
+Outro modo é:
+
+>>> spam
+['oi', 'ola', 'e ai', 'fala']
+>>> spam.insert(1,'como vai')
+>>> spam
+['oi', 'como vai', 'ola', 'e ai', 'fala']
+
+A função insert coloca o item no lugar predeterminado na lista
+
+Como remover itens de uma lista
